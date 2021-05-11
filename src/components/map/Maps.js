@@ -16,7 +16,7 @@ const Map = (props) => {
   return (
     <div className="map">
       <GoogleMapReact
-        bootstrapURLKeys={{ key: "AIzaSyBUTdEoMditaU5tikOU4QGyCBCOIvi1iGY" }}
+        bootstrapURLKeys={{ key: "" }}
         defaultCenter={{
           lat: 49.87476,
           lng: 24.04662,
