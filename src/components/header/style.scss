@@ -1,0 +1,36 @@
+@import "../../scss/variables";
+
+.burger-icon {
+    color: $blue;
+    font-size: 50px;
+}
+
+
+.navbar-brand {
+    display: flex;
+    h1 {
+        font-family: "Segoe UI";
+        color: $blue;
+        font-size: 34px;
+        line-height: inherit;
+        margin: 0;
+        padding-left: 10px;
+    }
+}
+
+.navbar-dark .navbar-toggler {
+    border: none;
+    padding: 0;
+  }
+
+.navbar-dark .navbar-nav .nav-link {
+    color: $blue;
+    font-weight: 600;
+    font-family: "Segoe UI";
+    &:focus {
+        color: white;
+    };
+    &:hover {
+        color: white;
+    }
+}

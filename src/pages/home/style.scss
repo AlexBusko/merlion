@@ -1,0 +1,100 @@
+@import "../../scss/variables";
+@import "../../scss/mediaQueries";
+
+.home {
+  font-family: 'Segoe UI';
+  background-color: white;
+  color: $blue;
+  padding: 95px 0 25px 0;
+  .home-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .home-col {
+      display: flex;
+      justify-content: center;
+    }
+
+    .logo {
+      width: 200px;
+      height: 200px;
+    }
+    .text-logo {
+      font-size: 50px;
+      line-height: 1em;
+      margin: 0;
+    }
+    h4 {
+      font-size: 15px;
+      padding-left: 3px;
+    }
+  }
+}
+
+@include responsive(sm) {
+  .home {
+    padding: 120px 0 50px 0;
+    .home-row {
+      .logo {
+        width: 300px;
+        height: 300px;
+      }
+      .text-logo {
+        font-size: 60px;
+      }
+    }
+  }
+}
+
+@include responsive(md) {
+  .home {
+    padding: 120px 0 50px 0;
+    .home-row {
+      justify-content: space-around;
+      .text-logo {
+        margin-top: 0;
+      }
+      .text-logo {
+        font-size: 70px;
+      }
+      h4 {
+        font-size: 17px;
+      }
+    }
+  }
+}
+
+@include responsive(lg) {
+  .home {
+    padding: 120px 0 50px 0;
+    .home-row {
+      .logo {
+        width: 400px;
+        height: 400px;
+      }
+      .text-logo {
+        font-size: 100px;
+      }
+      h4 {
+        font-size: 20px;
+        padding-left: 6px;
+      }
+    }
+  }
+}
+
+@include responsive(xl) {
+  .home {
+    .logo {
+      width: 500px;
+      height: 500px;
+    }
+    .text-logo {
+      font-size: 120px;
+    }
+    h4 {
+      font-size: 25px;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+@import "../../scss/variables";
+@import "../../scss/mediaQueries";
+
+.contacts {
+  background-color: $space-cadet;
+  padding: 25px 0 25px 0;
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    .info-box {
+      h5 {
+        font-size: 15px;
+      }
+
+      h4 {
+        font-size: 20px;
+      }
+
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      .info-icon {
+        font-size: 50px;
+        margin-right: 20px;
+      }
+    }
+    .social-media {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      > * {
+        font-size: 25px;
+      }
+
+      :first-child {
+        margin-right: 20px;
+      }
+    }
+  }
+}
+
+@include responsive(lg) {
+  .contacts {
+    padding: 50px 0 50px 0;
+  }
+}

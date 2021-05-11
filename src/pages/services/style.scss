@@ -1,0 +1,37 @@
+@import "../../scss/variables";
+
+.services {
+  color: white;
+  font-size: 16px;
+  .service-card {
+    display: flex;
+    padding: 1.5em;
+    justify-content: center;
+    height: 200px;
+    min-width: 320px;
+    .icon {
+      flex: 1;
+      color: white;
+      font-size: 40px;
+      margin-top: 10px;
+    }
+
+    .ultrasound, .gastroscope {
+      margin-top: -2px;
+    }
+
+    .service-info {
+      flex: 3;
+      padding-left: 0.5em;
+
+      h2 {
+        font-size: 2em;
+        padding-bottom: 0.5em;
+        border-bottom: 2px solid white;
+      }
+    }
+
+
+
+  }
+}
