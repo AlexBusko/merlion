@@ -20,14 +20,14 @@ const Services = () => {
           <FontAwesomeIcon className="icon" icon={faStethoscope} />
           <div className="service-info">
             <h2>Діагностика</h2>
-            <p>Високотехнологічне дослідження стану здоров'я </p>
+            <p>Апаратні дослідження стану здоров'я</p>
           </div>
         </Col>
         <Col className="service-card" style={{ background: "#d2a509" }}>
           <FontAwesomeIcon className="icon" icon={faSyringe} />
           <div className="service-info">
             <h2>Лікування</h2>
-            <p>Якісне надання необхідної допомоги</p>
+            <p>Заходи кваліфікованої ветеринарної допомоги</p>
           </div>
         </Col>
         <Col className="service-card" style={{ background: "#FA8334" }}>
@@ -35,7 +35,7 @@ const Services = () => {
           <div className="service-info">
             <h2>УЗД</h2>
             <p>
-              Діагностування за допомогою ультразвукової апаратури
+            Ультразвукова діагностика захворювання
             </p>
           </div>
         </Col>
@@ -43,21 +43,21 @@ const Services = () => {
           <Scalpel className="icon" />
           <div className="service-info">
             <h2>Хірургія</h2>
-            <p>Оперативне втручання для лікування захворювань</p>
+            <p>Оперативні лікування захворювань</p>
           </div>
         </Col>
         <Col className="service-card" style={{ background: "#EF5D60" }}>
         <Gastroscope className="icon gastroscope" />
           <div className="service-info">
             <h2>Гастроскопія</h2>
-            <p>Діагностика захворювань шлунково-кишкового тракту</p>
+            <p>Ендоскопічне дослідження верхніх відділів шлунково-кишкового тракту </p>
           </div>
         </Col>
         <Col className="service-card" style={{ background: "#B10361" }}>
           <FontAwesomeIcon className="icon" icon={faHospital} />
           <div className="service-info">
             <h2>Стаціонар</h2>
-            <p>Післяопераційне медичне спостереження та перетримка</p>
+            <p>Стаціонарне лікування тварин та перетримка</p>
           </div>
         </Col>
       </Row>

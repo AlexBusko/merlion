@@ -24,13 +24,15 @@
   }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: $blue;
+    color: white;
     font-weight: 600;
     font-family: "Segoe UI";
     &:focus {
         color: white;
+        text-decoration: underline
     };
     &:hover {
         color: white;
+        text-decoration: underline
     }
 }
