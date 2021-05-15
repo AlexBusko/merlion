@@ -1,0 +1,133 @@
+@import "../../../scss/variables";
+@import "../../../scss/mediaQueries";
+
+.third-aboutus {
+  background-color: $space-cadet;
+  font-size: 18px;
+  .first-paw,
+  .second-paw,
+  .third-paw,
+  .fourth-paw,
+  .fifth-paw,
+  .sixth-paw {
+    z-index: 1;
+    color: $max-blue-green;
+    opacity: 0.3;
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    font-size: 1.5em;
+    transform: rotate(164deg);
+  }
+
+  .second-paw {
+    top: 20%;
+    left: 35%;
+  }
+
+  .third-paw {
+    top: 39%;
+    left: 31%;
+  }
+
+  .fourth-paw {
+    top: 53%;
+    left: 49%;
+  }
+
+  .fifth-paw {
+    top: 73%;
+    left: 43%;
+  }
+
+  .sixth-paw {
+    top: 88%;
+    left: 62%;
+  }
+}
+
+@include responsive(sm) {
+  .third-aboutus {
+    .first-paw,
+    .second-paw,
+    .third-paw,
+    .fourth-paw,
+    .fifth-paw,
+    .sixth-paw {
+      top: 5%;
+      left: 20%;
+      transform: rotate(127deg);
+    }
+
+    .second-paw {
+      top: 12%;
+      left: 29%;
+    }
+
+    .third-paw {
+      top: 39%;
+      left: 31%;
+    }
+
+    .fourth-paw {
+      top: 47%;
+      left: 40%;
+    }
+
+    .fifth-paw {
+      top: 73%;
+      left: 43%;
+    }
+
+    .sixth-paw {
+      top: 81%;
+      left: 52%;
+    }
+  }
+}
+
+@include responsive(lg) {
+  .third-aboutus {
+    .first-paw,
+    .second-paw,
+    .third-paw,
+    .fourth-paw,
+    .fifth-paw,
+    .sixth-paw {
+      top: 5%;
+      left: 20%;
+      transform: rotate(125deg);
+    }
+
+    .second-paw {
+      top: 12%;
+      left: 27%;
+    }
+
+    .third-paw {
+      top: 39%;
+      left: 31%;
+    }
+
+    .fourth-paw {
+      top: 45%;
+      left: 38%;
+    }
+
+    .fifth-paw {
+      top: 73%;
+      left: 43%;
+    }
+
+    .sixth-paw {
+      top: 81%;
+      left: 50%;
+    }
+  }
+}
+
+@include responsive(xl) {
+  .third-aboutus {
+    display: none;
+  }
+}

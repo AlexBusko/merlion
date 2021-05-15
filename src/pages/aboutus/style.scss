@@ -10,7 +10,7 @@
   font-size: 20px;
   line-height: 2;
   padding: 1em;
-  background-color: $blue;
+  background-color: $independence;
   color: white;
   width: 100%;
   height: 100%;
@@ -27,12 +27,7 @@
   }
 }
 
-.first-aboutus,
-.third-aboutus,
-.fourth-aboutus {
-  background-color: $space-cadet;
-  font-size: 18px;
-}
+
 
 .aboutus {
   .first-paw,
@@ -71,126 +66,20 @@
   }
 }
 
-.first-aboutus {
-  .first-paw,
-  .second-paw,
-  .third-paw,
-  .fourth-paw,
-  .fifth-paw,
-  .sixth-paw {
-    z-index: 1;
-    color: $max-blue-green;
-    opacity: 0.3;
-    position: absolute;
-    top: 30px;
-    left: 100px;
-    font-size: 1.5em;
-    transform: rotate(-65deg);
-  }
-
-  .second-paw {
-    top: 60px;
-    left: 150px;
-  }
-
-  .third-paw {
-    top: 66px;
-    left: 213px;
-  }
-
-  .fourth-paw {
-    top: 93px;
-    left: 267px;
-  }
-
-  .fifth-paw {
-    top: 90px;
-    left: 323px;
-  }
-
-  .sixth-paw {
-    top: 25px;
-    left: 39px;
-  }
-}
-
-.whywe {
-  padding: 0.5em;
-  font-size: 16px;
-  color: black;
-  background-color: $max-blue-green;
-  height: 100%;
-  min-width: 320px;
-  position: relative;
-  z-index: 2;
-  h2 {
-    font-style: italic;
-    font-size: 2em;
-  }
-  ul {
-    position: relative;
-    list-style-image: url(../../assets/icons/small_paw.svg);
-    li {
-      padding-left: 0.5em;
-    }
-  }
-
-  .first-paw,
-  .second-paw,
-  .third-paw,
-  .fourth-paw,
-  .fifth-paw {
-    z-index: 1;
-    color: $independence;
-    opacity: 0.4;
-    position: absolute;
-    bottom: 10%;
-    right: 10%;
-    font-size: 2em;
-    transform: rotate(-45deg);
-  }
-
-  .second-paw {
-    bottom: 25%;
-    right: 15%;
-  }
-
-  .third-paw {
-    bottom: 28%;
-    right: 33%;
-  }
-
-  .fourth-paw {
-    bottom: 45%;
-    right: 40%;
-  }
-
-  .fifth-paw {
-    bottom: 51%;
-    right: 60%;
-  }
-}
-
 @include responsive(sm) {
   .aboutus {
     font-size: 18px;
     padding: 1em;
   }
 
-  .whywe {
-    font-size: 16px;
-    padding: 0.5em;
-  }
+
 }
 
 @include responsive(md) {
   .aboutus {
     font-size: 20px;
   }
-  .whywe {
-    font-size: 18px;
-    padding: 0.5em;
-  }
+
 }
 
 @include responsive(lg) {
@@ -202,22 +91,11 @@
       display: block;
     }
   }
-
-  .first-aboutus {
-    display: none;
-  }
-
-  .whywe {
-    font-size: 25px;
-    ul {
-      list-style-image: url(../../assets/icons/paw.svg);
-    }
-  }
 }
 
 @include responsive(xl) {
   .aboutus {
-    font-size: 20px;
+    font-size: 22px;
     line-height: 1.5;
     padding: 1em;
 
@@ -228,13 +106,6 @@
     }
   }
 
-  .third-aboutus,
-  .fourth-aboutus {
-    display: none;
-  }
-  .whywe {
-    font-size: 30px;
-  }
 }
 
 @include responsive(xxl) {
@@ -242,9 +113,5 @@
     font-size: 20px;
     line-height: 2;
     padding: 2em;
-  }
-
-  .whywe {
-    font-size: 30px;
   }
 }

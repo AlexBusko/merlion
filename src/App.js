@@ -9,10 +9,10 @@ import Footer from "./pages/footer/Footer";
 import Services from "./pages/services/Services";
 import Partners from "./pages/partners/Partners";
 import AboutUs from "./pages/aboutus/AboutUs";
-import WhyWe from "./pages/aboutus/WhyWe";
-import FirstAboutUs from "./pages/aboutus/FirstAboutUs";
-import ThirdAboutUs from "./pages/aboutus/ThirdAboutUs";
-import FourthAboutUs from "./pages/aboutus/FourthAboutUs";
+import WhyWe from "./pages/aboutus/whyWe/WhyWe";
+import FirstAboutUs from "./pages/aboutus/firstAboutUs/FirstAboutUs";
+import ThirdAboutUs from "./pages/aboutus/thirdAboutUs/ThirdAboutUs";
+import FourthAboutUs from "./pages/aboutus/fourthAboutUs/FourthAboutUs";
 
 const App = () => {
   return (
@@ -23,10 +23,10 @@ const App = () => {
       <Grid first={<Photos />} second={<AboutUs />} />
       <Services />
       <ThirdAboutUs />
-      <Partners />
-      <FourthAboutUs />
       <Grid first={<WhyWe />} second={<Photos />} />
       <Contacts />
+      <Partners />
+      <FourthAboutUs />
       <Footer />
     </div>
   );

@@ -1,0 +1,93 @@
+@import "../../../scss/variables";
+@import "../../../scss/mediaQueries";
+
+.first-aboutus {
+  background-color: $space-cadet;
+  font-size: 18px;
+  .first-paw,
+  .second-paw,
+  .third-paw,
+  .fourth-paw,
+  .fifth-paw,
+  .sixth-paw {
+    z-index: 1;
+    color: $max-blue-green;
+    opacity: 0.3;
+    position: absolute;
+    top: 5%;
+    right: 20%;
+    font-size: 1em;
+    transform: rotate(20deg);
+  }
+
+  .second-paw {
+    top: 20%;
+    right: 35%;
+  }
+
+  .third-paw {
+    top: 39%;
+    right: 31%;
+  }
+
+  .fourth-paw {
+    top: 53%;
+    right: 49%;
+  }
+
+  .fifth-paw {
+    top: 73%;
+    right: 43%;
+  }
+
+  .sixth-paw {
+    top: 85%;
+    right: 62%;
+  }
+}
+
+@include responsive(sm) {
+  .first-aboutus {
+    .first-paw,
+    .second-paw,
+    .third-paw,
+    .fourth-paw,
+    .fifth-paw,
+    .sixth-paw {
+      top: 5%;
+      right: 30%;
+      transform: rotate(50deg);
+    }
+
+    .second-paw {
+      top: 31%;
+      right: 40%;
+    }
+
+    .third-paw {
+      top: 39%;
+      right: 31%;
+    }
+
+    .fourth-paw {
+      top: 53%;
+      right: 49%;
+    }
+
+    .fifth-paw {
+      top: 63%;
+      right: 40%;
+    }
+
+    .sixth-paw {
+      top: 80%;
+      right: 51%;
+    }
+  }
+}
+
+@include responsive(lg) {
+  .first-aboutus {
+    display: none;
+  }
+}

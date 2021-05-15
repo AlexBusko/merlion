@@ -1,0 +1,58 @@
+@import "../../../scss/variables";
+@import "../../../scss/mediaQueries";
+
+.fourth-aboutus {
+  background-color: $space-cadet;
+  font-size: 18px;
+  .first-paw,
+  .second-paw,
+  .third-paw {
+    z-index: 1;
+    color: $max-blue-green;
+    opacity: 0.3;
+    position: absolute;
+    bottom: 8%;
+    left: 5%;
+    font-size: 2em;
+    transform: rotate(-30deg);
+  }
+
+  .second-paw {
+    bottom: 5%;
+    left: 30%;
+  }
+
+  .third-paw {
+    bottom: 39%;
+    left: 7%;
+  }
+}
+
+@include responsive(sm) {
+    .fourth-aboutus {
+
+        .second-paw {
+            bottom: 5%;
+            left: 16%;
+        }
+    }
+}
+
+@include responsive(md) {
+}
+
+@include responsive(lg) {
+    .fourth-aboutus {
+
+        .second-paw {
+            bottom: 5%;
+            left: 10%;
+        }
+    }
+}
+
+@include responsive(xl) {
+  .fourth-aboutus {
+    display: none;
+  }
+}
