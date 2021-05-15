@@ -1,38 +1,58 @@
 @import "../../scss/variables";
+@import "../../scss/mediaQueries";
 
 .burger-icon {
-    color: $blue;
-    font-size: 50px;
+  color: $blue;
+  font-size: 50px;
 }
 
-
 .navbar-brand {
-    display: flex;
-    h1 {
-        font-family: "Segoe UI";
-        color: $blue;
-        font-size: 34px;
-        line-height: inherit;
-        margin: 0;
-        padding-left: 10px;
-    }
+  display: flex;
+  h1 {
+    font-family: "Segoe UI";
+    color: $blue;
+    font-size: 34px;
+    line-height: inherit;
+    margin: 0;
+    padding-left: 10px;
+  }
 }
 
 .navbar-dark .navbar-toggler {
-    border: none;
-    padding: 0;
-  }
+  border: none;
+  padding: 0;
+}
 
 .navbar-dark .navbar-nav .nav-link {
+  color: white;
+  font-weight: 600;
+  font-family: "Segoe UI";
+  &:focus {
     color: white;
-    font-weight: 600;
-    font-family: "Segoe UI";
-    &:focus {
+    text-decoration: underline;
+  }
+  &:hover {
+    color: white;
+    text-decoration: underline;
+  }
+}
+
+.head-social-media {
+  display: none;
+}
+
+@include responsive(lg) {
+  .navbar-nav {
+    .head-social-media {
+        display: block;
+        margin-left: 1em;
+      a {
+        font-size: 20px;
         color: white;
-        text-decoration: underline
-    };
-    &:hover {
-        color: white;
-        text-decoration: underline
+        &:first-child {
+          margin-right: 10px;
+        }
+      }
     }
+  }
 }
