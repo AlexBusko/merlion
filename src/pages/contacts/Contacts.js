@@ -31,14 +31,14 @@ const Contacts = () => {
                 <Phone className="info-icon" />
                 <div>
                   <h5>Телефон:</h5>
-                  <h4>+380 67 657 12 03</h4>
+                  <a href="tel: +380676571203">+380 67 657 12 03</a>
                 </div>
               </div>
               <div className="info-box">
                 <Envelope className="info-icon" />
                 <div>
                   <h5>Email:</h5>
-                  <h4>vetmerlion@gmail.com</h4>
+                  <a href="mailto: vetmerlion@gmail.com">vetmerlion@gmail.com</a>
                 </div>
               </div>
               <div className="social-media">
