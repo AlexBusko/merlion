@@ -17,7 +17,9 @@ const Contacts = () => {
       <Container>
         <Row className="justify-content-md-around">
           <Col md={5}>
+
             <div className="info">
+            <h4 className="attention">Прийом за попереднім записом</h4>
               <div className="info-box">
                 <GeoAlt className="info-icon" />
                 <div>
@@ -29,19 +31,23 @@ const Contacts = () => {
                 <Phone className="info-icon" />
                 <div>
                   <h5>Телефон:</h5>
-                  <h4>+380 95 139 39 68</h4>
+                  <h4>+380 67 657 12 03</h4>
                 </div>
               </div>
               <div className="info-box">
                 <Envelope className="info-icon" />
                 <div>
                   <h5>Email:</h5>
-                  <h4>merlion@gmail.com</h4>
+                  <h4>vetmerlion@gmail.com</h4>
                 </div>
               </div>
               <div className="social-media">
-                <Facebook />
-                <Instagram />
+                <a href="https://www.facebook.com/%D0%92%D0%B5%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B0%D1%80%D0%BD%D0%B0-%D0%BA%D0%BB%D1%96%D0%BD%D1%96%D0%BA%D0%B0-Merlion-106631318234180">
+                  <Facebook />
+                </a>
+                <a href="https://instagram.com/merlion.clinic?utm_medium=copy_link">
+                  <Instagram />
+                </a>
               </div>
             </div>
           </Col>

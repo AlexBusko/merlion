@@ -29,7 +29,7 @@ const Header = () => {
         />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
-          <Nav.Link>
+            <Nav.Link>
               <Link to="whywe" smooth duration={500} offset={-100}>
                 Про нас
               </Link>
@@ -45,10 +45,10 @@ const Header = () => {
               </Link>
             </Nav.Link>
             <div className="head-social-media">
-              <a href="">
+              <a href="https://instagram.com/merlion.clinic?utm_medium=copy_link">
                 <Instagram />
               </a>
-              <a href="https://www.facebook.com/nazar.kashlyak">
+              <a href="https://www.facebook.com/%D0%92%D0%B5%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B0%D1%80%D0%BD%D0%B0-%D0%BA%D0%BB%D1%96%D0%BD%D1%96%D0%BA%D0%B0-Merlion-106631318234180">
                 <Facebook />
               </a>
             </div>

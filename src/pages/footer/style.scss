@@ -4,4 +4,11 @@
 .footer {
     background-color: $oxford-blue;
     height: 50px;
+    .wrapper {
+        color: darkgrey;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }

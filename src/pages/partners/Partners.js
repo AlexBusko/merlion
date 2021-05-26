@@ -7,7 +7,9 @@ import "./style.scss";
 
 const Partners = () => (
   <Container className="partners">
-    <img src={royalCanin} alt="royal canin"/>
+    <a href="https://www.royalcanin.com/ua">
+      <img src={royalCanin} alt="royal canin" />
+    </a>
   </Container>
 );
 

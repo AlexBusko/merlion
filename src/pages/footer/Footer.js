@@ -5,8 +5,9 @@ import "./style.scss";
 const Footer = () => {
   return (
     <Container fluid className="footer">
-        <Container>
-
+        <Container className="wrapper">
+            <div><span>Copyright 2021</span></div>
+            <div><span>convalia.digital</span></div>
         </Container>
     </Container>
   );

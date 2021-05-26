@@ -21,7 +21,7 @@ const Map = (props) => {
           lat: 49.87476,
           lng: 24.04662,
         }}
-        defaultZoom={15}
+        defaultZoom={16}
       >
         <LocationPin lat={49.87476} lng={24.04662}></LocationPin>
       </GoogleMapReact>
@@ -30,6 +30,3 @@ const Map = (props) => {
 };
 
 export default Map;
-
-//position={{ lat: 49.87476, lng: 24.04662 }}
-//apiKey: "AIzaSyDliXP_byC-fAf61B3EMeC2Cw-FRm7Yz-Q",
