@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
-import darkMerlion from "../../assets/images/dark_merlion_logo.png"
+import { ReactComponent as MerlionLogo } from "../../assets/icons/merlion_logo.svg";
 import "./style.scss";
 
 const Home = () => {
@@ -9,7 +9,7 @@ const Home = () => {
       <Container>
         <Row className="home-row">
           <Col md={5} className="home-col">
-            <img className="logo" src={darkMerlion}  alt="merlion"/>
+            <MerlionLogo className="logo" />
           </Col>
           <Col md={5} className="home-col">
             <div>

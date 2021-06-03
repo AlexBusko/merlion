@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 
-import royalCanin from "../../assets/images/royal_canin.png";
+import royalCanin from "../../assets/images/royal_canin.jpg";
 
 import "./style.scss";
 
