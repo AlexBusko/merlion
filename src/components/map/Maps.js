@@ -63,7 +63,7 @@ const Map = () => {
         onGoogleApiLoaded={({ map, maps }) => {
           handleApiLoaded(map, maps);
         }}
-        bootstrapURLKeys={{ key: "AIzaSyDq6UYv73tArM0TwJA4l8T2qwJKRatseps" }}
+        bootstrapURLKeys={{ key: "AIzaSyAq1jgLdjbxY3bj40CmAowybUOwdfRlPZ4" }}
         defaultCenter={{
           lat: 49.87476,
           lng: 24.04662,
