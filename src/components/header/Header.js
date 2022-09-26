@@ -20,7 +20,10 @@ const Header = () => {
         <Link to="home" smooth duration={500} offset={-100}>
           <Navbar.Brand>
             <MerlionLogo style={{ width: "50px", height: "50px" }} />
-            <h1>MERLION</h1>
+            <div className="logo-text">
+              <h1>MERLION</h1>
+              <a href="tel: +380676571203">+380 67 657 1203</a>
+            </div>
           </Navbar.Brand>
         </Link>
         <Navbar.Toggle

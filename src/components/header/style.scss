@@ -8,13 +8,24 @@
 
 .navbar-brand {
   display: flex;
-  h1 {
-    font-family: "Segoe UI";
-    color: $blue;
-    font-size: 34px;
-    line-height: inherit;
-    margin: 0;
+  align-items: center;
+  .logo-text {
     padding-left: 10px;
+    h1 {
+      font-family: "Segoe UI";
+      color: $blue;
+      font-size: 34px;
+      line-height: 24px;
+      margin: 0;
+      padding: 0;
+    }
+    a {
+      margin: 0;
+      padding: 0;
+      color: white;
+      font-size: 14px;
+      line-height: 10px;
+    }
   }
 }
 
@@ -44,8 +55,8 @@
 @include responsive(lg) {
   .navbar-nav {
     .head-social-media {
-        display: block;
-        margin-left: 1em;
+      display: block;
+      margin-left: 1em;
       a {
         font-size: 20px;
         color: white;
